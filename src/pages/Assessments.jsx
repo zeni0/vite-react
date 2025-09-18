@@ -1,0 +1,41 @@
+
+import { useState } from "react"
+import data from "../components/Assessments/assessments-complete.json"
+
+export default function Assessments() {
+    
+    const [courseCount, setCourseCount] = useState(10)
+    console.log(data)
+
+    function showAllCouses() {
+        setCourseCount(data.length)
+    }
+    
+    return (
+        <section id="assessments">
+            <h3>Assessment details</h3>
+            <main className="assessment-container">
+                <div className="heading">
+                    <div className="title">Title</div>
+                    <div>Status</div>
+                    <div>Open Date</div>
+                    <div>Due Date</div>
+                </div>
+                {data.slice(0,courseCount).map((course, index) => 
+                <div key={index} className={index % 2 === 1 ? "row grey" : "row"}>
+                    <div className="title">
+                        <a href={course.ASSIGNMENT_LMS_LINK} target="_blank">
+                            {course.ASSIGNMENT_NAME} 
+                            <i style={{marginLeft:'10px'}} className="fa">&#xf08e;</i>
+                        </a>
+                    </div>
+                    <div style={{textTransform:"capitalize"}}>{course.ASSIGNMENT_STATUS_DESC.toLowerCase()}</div>
+                    <div>{course.ASSIGNMENT_OPEN_DATE}</div>
+                    <div>{course.ASSIGNMENT_DUE_DATE}</div>
+                </div>
+                )}
+            </main>
+            {courseCount <= 10 &&<button onClick={showAllCouses}>Show all</button>}
+        </section>
+    )
+}

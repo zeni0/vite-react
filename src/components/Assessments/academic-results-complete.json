@@ -1,0 +1,934 @@
+[
+    {
+        "PROGRAM_DESC": "Bachelor of Science",
+        "PROGRAM_STATUS_CODE": "AC",
+        "PROGRAM_STATUS_DESC": "Active in Program",
+        "COLLEGE_CODE": "SCIENG",
+        "COLLEGE_DESC": "Faculty of Sciences, Engineering and Technology",
+        "PLAN_CODE_DESC": "BSCI - Bachelor of Science",
+        "PROGRAM_CUMULATIVE_GPA": "3.2",
+        "PROGRAM_RESEARCH_FLAG": "N",
+        "ACAD_YEARS": [
+            {
+                "CAREER_TERM_YEAR": "2024",
+                "SEMESTERS": [
+                    {
+                        "SEMESTER_DESC": "2024 Semester 1",
+                        "SEMESTER_CODE": "2420",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Fundamental Chemistry 1",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": "HD",
+                                "COURSE_GRADE_DESC": "High Distinction",
+                                "COURSE_MARK": "90",
+                                "COURSE_RESULT": "90 - HD",
+                                "LMS_LINK": "https://learn.adelaide.edu.au",
+                                "SHOW_LMS_LINK_FLAG": "Y",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 10,
+                                    "D_PERCENTAGE": 20,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "CHEM1010"
+                            },
+                            {
+                                "COURSE_DESC": "Introduction to Biology",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": "P",
+                                "COURSE_GRADE_DESC": "Pass",
+                                "COURSE_MARK": "50",
+                                "COURSE_RESULT": "50 - P",
+                                "LMS_LINK": "https://learn.adelaide.edu.au",
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 10,
+                                    "D_PERCENTAGE": 20,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 0,
+                                    "F_PERCENTAGE": 10
+                                },
+                                "COURSE_CODE": "BIOL1010"
+                            },
+                            {
+                                "COURSE_DESC": "Mathematics for Scientists",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": "D",
+                                "COURSE_GRADE_DESC": "Distinction",
+                                "COURSE_MARK": "75",
+                                "COURSE_RESULT": "75 - D",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 2,
+                                    "D_PERCENTAGE": 28,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 0,
+                                    "F_PERCENTAGE": 10
+                                },
+                                "COURSE_CODE": "MATH1010"
+                            }
+                        ]
+                    },
+                    {
+                        "SEMESTER_DESC": "2024 Semester 2",
+                        "SEMESTER_CODE": "2421",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Physics 1",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 15,
+                                    "D_PERCENTAGE": 25,
+                                    "C_PERCENTAGE": 35,
+                                    "P_PERCENTAGE": 15,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "PHYS1010"
+                            },
+                            {
+                                "COURSE_DESC": "Environmental Science",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "ENVS1010"
+                            },
+                            {
+                                "COURSE_DESC": "Statistics for Science",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "STAT1010"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "CAREER_TERM_YEAR": "2025",
+                "SEMESTERS": [
+                    {
+                        "SEMESTER_DESC": "2025 Semester 1",
+                        "SEMESTER_CODE": "2520",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Fundamental Chemistry 1",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": "HD",
+                                "COURSE_GRADE_DESC": "Distinction",
+                                "COURSE_MARK": "90",
+                                "COURSE_RESULT": "90 - HD",
+                                "LMS_LINK": "https://learn.adelaide.edu.au",
+                                "SHOW_LMS_LINK_FLAG": "Y",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 10,
+                                    "D_PERCENTAGE": 20,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "CHEM1010"
+                            },
+                            {
+                                "COURSE_DESC": "Introduction to Biology",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": "P",
+                                "COURSE_GRADE_DESC": "Pass",
+                                "COURSE_MARK": "50",
+                                "COURSE_RESULT": "50 - P",
+                                "LMS_LINK": "https://learn.adelaide.edu.au",
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 10,
+                                    "D_PERCENTAGE": 20,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 0,
+                                    "F_PERCENTAGE": 10
+                                },
+                                "COURSE_CODE": "BIOL1010"
+                            },
+                            {
+                                "COURSE_DESC": "Mathematics for Scientists",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": "D",
+                                "COURSE_GRADE_DESC": "Distinction",
+                                "COURSE_MARK": "75",
+                                "COURSE_RESULT": "75 - D",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 2,
+                                    "D_PERCENTAGE": 28,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 0,
+                                    "F_PERCENTAGE": 10
+                                },
+                                "COURSE_CODE": "MATH1010"
+                            }
+                        ]
+                    },
+                    {
+                        "SEMESTER_DESC": "2025 Semester 2",
+                        "SEMESTER_CODE": "2521",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Physics 1",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 15,
+                                    "D_PERCENTAGE": 25,
+                                    "C_PERCENTAGE": 35,
+                                    "P_PERCENTAGE": 15,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "PHYS1010"
+                            },
+                            {
+                                "COURSE_DESC": "Environmental Science",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "ENVS1010"
+                            },
+                            {
+                                "COURSE_DESC": "Statistics for Science",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "STAT1010"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "CAREER_TERM_YEAR": "2026",
+                "SEMESTERS": [
+                    {
+                        "SEMESTER_DESC": "2026 Semester 1",
+                        "SEMESTER_CODE": "2620",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Fundamental Chemistry 1",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": "HD",
+                                "COURSE_GRADE_DESC": "Distinction",
+                                "COURSE_MARK": "90",
+                                "COURSE_RESULT": "90 - HD",
+                                "LMS_LINK": "https://learn.adelaide.edu.au",
+                                "SHOW_LMS_LINK_FLAG": "Y",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Not Applicable",
+                                    "HD_PERCENTAGE": 10,
+                                    "D_PERCENTAGE": 20,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "CHEM1010"
+                            },
+                            {
+                                "COURSE_DESC": "Introduction to Biology",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": "P",
+                                "COURSE_GRADE_DESC": "Pass",
+                                "COURSE_MARK": "50",
+                                "COURSE_RESULT": "50 - P",
+                                "LMS_LINK": "https://learn.adelaide.edu.au",
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Not Applicable",
+                                    "HD_PERCENTAGE": 10,
+                                    "D_PERCENTAGE": 20,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 0,
+                                    "F_PERCENTAGE": 10
+                                },
+                                "COURSE_CODE": "BIOL1010"
+                            },
+                            {
+                                "COURSE_DESC": "Mathematics for Scientists",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": "D",
+                                "COURSE_GRADE_DESC": "Distinction",
+                                "COURSE_MARK": "75",
+                                "COURSE_RESULT": "75 - D",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Not Applicable",
+                                    "HD_PERCENTAGE": 2,
+                                    "D_PERCENTAGE": 28,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 0,
+                                    "F_PERCENTAGE": 10
+                                },
+                                "COURSE_CODE": "MATH1010"
+                            }
+                        ]
+                    },
+                    {
+                        "SEMESTER_DESC": "2026 Semester 2",
+                        "SEMESTER_CODE": "2621",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Physics 1",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 15,
+                                    "D_PERCENTAGE": 25,
+                                    "C_PERCENTAGE": 35,
+                                    "P_PERCENTAGE": 15,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "PHYS1010"
+                            },
+                            {
+                                "COURSE_DESC": "Environmental Science",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "ENVS1010"
+                            },
+                            {
+                                "COURSE_DESC": "Statistics for Science",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "STAT1010"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "PROGRAM_CODE": "BSCI"
+    },
+    {
+        "PROGRAM_DESC": "Bachelor of Engineering (Civil)",
+        "PROGRAM_STATUS_CODE": "LA",
+        "PROGRAM_STATUS_DESC": "Leave of Absence",
+        "COLLEGE_CODE": "ENGN",
+        "COLLEGE_DESC": "Faculty of Engineering",
+        "PLAN_CODE_DESC": "BENGCIV - Bachelor of Engineering (Civil)",
+        "PROGRAM_CUMULATIVE_GPA": "5.0",
+        "PROGRAM_RESEARCH_FLAG": "N",
+        "ACAD_YEARS": [
+            {
+                "CAREER_TERM_YEAR": "2026",
+                "SEMESTERS": [
+                    {
+                        "SEMESTER_DESC": "2026 Semester 1",
+                        "SEMESTER_CODE": "2620",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Engineering Mechanics",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "ENGG1010"
+                            },
+                            {
+                                "COURSE_DESC": "Materials Science",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 20,
+                                    "D_PERCENTAGE": 30,
+                                    "C_PERCENTAGE": 30,
+                                    "P_PERCENTAGE": 15,
+                                    "FH_PERCENTAGE": 3,
+                                    "F_PERCENTAGE": 2
+                                },
+                                "COURSE_CODE": "ENGG1020"
+                            },
+                            {
+                                "COURSE_DESC": "Civil Engineering Design",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "ENGG1030"
+                            }
+                        ]
+                    },
+                    {
+                        "SEMESTER_DESC": "2026 Semester 2",
+                        "SEMESTER_CODE": "2621",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Structural Analysis",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 25,
+                                    "D_PERCENTAGE": 35,
+                                    "C_PERCENTAGE": 25,
+                                    "P_PERCENTAGE": 10,
+                                    "FH_PERCENTAGE": 3,
+                                    "F_PERCENTAGE": 2
+                                },
+                                "COURSE_CODE": "ENGG1040"
+                            },
+                            {
+                                "COURSE_DESC": "Hydraulics and Fluid Mechanics",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "ENGG1050"
+                            },
+                            {
+                                "COURSE_DESC": "Geotechnical Engineering",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "ENGG1060"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "PROGRAM_CODE": "BENGCIV"
+    },
+    {
+        "PROGRAM_DESC": "Bachelor of Arts",
+        "PROGRAM_STATUS_CODE": "CM",
+        "PROGRAM_STATUS_DESC": "Completed",
+        "COLLEGE_CODE": "ARTS",
+        "COLLEGE_DESC": "Faculty of Arts",
+        "PLAN_CODE_DESC": "BART - Bachelor of Arts",
+        "PROGRAM_CUMULATIVE_GPA": "4.6",
+        "PROGRAM_RESEARCH_FLAG": "N",
+        "ACAD_YEARS": [
+            {
+                "CAREER_TERM_YEAR": "2026",
+                "SEMESTERS": [
+                    {
+                        "SEMESTER_DESC": "2026 Semester 1",
+                        "SEMESTER_CODE": "2620",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Introduction to Philosophy",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 10,
+                                    "D_PERCENTAGE": 20,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "PHIL1010"
+                            },
+                            {
+                                "COURSE_DESC": "World History 1",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "HIST1010"
+                            },
+                            {
+                                "COURSE_DESC": "Introductory Sociology",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "SOCI1010"
+                            }
+                        ]
+                    },
+                    {
+                        "SEMESTER_DESC": "2026 Semester 2",
+                        "SEMESTER_CODE": "2621",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Cultural Studies",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 15,
+                                    "D_PERCENTAGE": 25,
+                                    "C_PERCENTAGE": 35,
+                                    "P_PERCENTAGE": 15,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "CULT1010"
+                            },
+                            {
+                                "COURSE_DESC": "Ethics and Society",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "ETHI1010"
+                            },
+                            {
+                                "COURSE_DESC": "Creative Writing",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "CREA1010"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "PROGRAM_CODE": "BART"
+    },
+    {
+        "PROGRAM_DESC": "Master of Philosophy (Research)",
+        "PROGRAM_STATUS_CODE": "DC",
+        "PROGRAM_STATUS_DESC": "Discontinued",
+        "COLLEGE_CODE": "GRAD",
+        "COLLEGE_DESC": "Graduate Research School",
+        "PLAN_CODE_DESC": "MPHILRES - Master of Philosophy (Research)",
+        "PROGRAM_CUMULATIVE_GPA": null,
+        "PROGRAM_RESEARCH_FLAG": "Y",
+        "ACAD_YEARS": [
+            {
+                "CAREER_TERM_YEAR": "2026",
+                "SEMESTERS": [
+                    {
+                        "SEMESTER_DESC": "2026 Semester 1",
+                        "SEMESTER_CODE": "2620",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Research Thesis Preparation",
+                                "COURSE_UNITS": 12,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "RESR7001"
+                            },
+                            {
+                                "COURSE_DESC": "Qualitative Research Methods",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 20,
+                                    "D_PERCENTAGE": 30,
+                                    "C_PERCENTAGE": 30,
+                                    "P_PERCENTAGE": 15,
+                                    "FH_PERCENTAGE": 3,
+                                    "F_PERCENTAGE": 2
+                                },
+                                "COURSE_CODE": "RESR7010"
+                            },
+                            {
+                                "COURSE_DESC": "Quantitative Research Methods",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "RESR7020"
+                            }
+                        ]
+                    },
+                    {
+                        "SEMESTER_DESC": "2026 Semester 2",
+                        "SEMESTER_CODE": "2621",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Advanced Research Thesis",
+                                "COURSE_UNITS": 12,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "RESR8001"
+                            },
+                            {
+                                "COURSE_DESC": "Research Ethics and Governance",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 15,
+                                    "D_PERCENTAGE": 25,
+                                    "C_PERCENTAGE": 35,
+                                    "P_PERCENTAGE": 15,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "RESR8010"
+                            },
+                            {
+                                "COURSE_DESC": "Research Seminar Series",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "RESR8020"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "PROGRAM_CODE": "MPHILRES"
+    },
+    {
+        "PROGRAM_DESC": "Bachelor of Business",
+        "PROGRAM_STATUS_CODE": "CN",
+        "PROGRAM_STATUS_DESC": "Cancelled",
+        "COLLEGE_CODE": "BUSN",
+        "COLLEGE_DESC": "Adelaide Business School",
+        "PLAN_CODE_DESC": "BBUS - Bachelor of Business",
+        "PROGRAM_CUMULATIVE_GPA": "1.0",
+        "PROGRAM_RESEARCH_FLAG": "N",
+        "ACAD_YEARS": [
+            {
+                "CAREER_TERM_YEAR": "2026",
+                "SEMESTERS": [
+                    {
+                        "SEMESTER_DESC": "2026 Semester 1",
+                        "SEMESTER_CODE": "2620",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Principles of Accounting",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 15,
+                                    "D_PERCENTAGE": 25,
+                                    "C_PERCENTAGE": 35,
+                                    "P_PERCENTAGE": 15,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "ACCT1010"
+                            },
+                            {
+                                "COURSE_DESC": "Business Law",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "LAW1010"
+                            },
+                            {
+                                "COURSE_DESC": "Introduction to Marketing",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "MKTG1010"
+                            }
+                        ]
+                    },
+                    {
+                        "SEMESTER_DESC": "2026 Semester 2",
+                        "SEMESTER_CODE": "2621",
+                        "COURSES": [
+                            {
+                                "COURSE_DESC": "Organisational Behaviour",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": {
+                                    "GRADE_DISPLAY_FLAG": "Y",
+                                    "HD_PERCENTAGE": 10,
+                                    "D_PERCENTAGE": 20,
+                                    "C_PERCENTAGE": 40,
+                                    "P_PERCENTAGE": 20,
+                                    "FH_PERCENTAGE": 5,
+                                    "F_PERCENTAGE": 5
+                                },
+                                "COURSE_CODE": "MGMT1010"
+                            },
+                            {
+                                "COURSE_DESC": "Business Analytics",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "BANA1010"
+                            },
+                            {
+                                "COURSE_DESC": "Financial Management",
+                                "COURSE_UNITS": 6,
+                                "COURSE_STATUS_CODE": "E",
+                                "COURSE_STATUS_DESC": "Enrolled",
+                                "COURSE_GRADE_CODE": null,
+                                "COURSE_GRADE_DESC": null,
+                                "COURSE_MARK": null,
+                                "COURSE_RESULT": "Not Available",
+                                "LMS_LINK": null,
+                                "SHOW_LMS_LINK_FLAG": "N",
+                                "GRADE_DISTRIBUTION": null,
+                                "COURSE_CODE": "FINM1010"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "PROGRAM_CODE": "BBUS"
+    }
+]
