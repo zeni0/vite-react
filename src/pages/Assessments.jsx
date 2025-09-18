@@ -10,10 +10,14 @@ export default function Assessments() {
     function showAllCouses() {
         setCourseCount(data.length)
     }
+
+    function showLessCouses() {
+        setCourseCount(10)
+    }
     
     return (
         <section id="assessments">
-            <h3>Assessment details</h3>
+            <h2>Assessment details</h2>
             <main className="assessment-container">
                 <div className="heading">
                     <div className="title">Title</div>
@@ -24,10 +28,13 @@ export default function Assessments() {
                 {data.slice(0,courseCount).map((course, index) => 
                 <div key={index} className={index % 2 === 1 ? "row grey" : "row"}>
                     <div className="title">
+                        { course.ASSIGNMENT_LMS_LINK ?
                         <a href={course.ASSIGNMENT_LMS_LINK} target="_blank">
                             {course.ASSIGNMENT_NAME} 
                             <i style={{marginLeft:'10px'}} className="fa">&#xf08e;</i>
-                        </a>
+                        </a> : 
+                        <span>{course.ASSIGNMENT_NAME}</span> 
+                        }
                     </div>
                     <div style={{textTransform:"capitalize"}}>{course.ASSIGNMENT_STATUS_DESC.toLowerCase()}</div>
                     <div>{course.ASSIGNMENT_OPEN_DATE}</div>
@@ -35,7 +42,7 @@ export default function Assessments() {
                 </div>
                 )}
             </main>
-            {courseCount <= 10 &&<button onClick={showAllCouses}>Show all</button>}
+            {courseCount <= 10 ? <button onClick={showAllCouses}>Show all</button> : <button onClick={showLessCouses}>Show less</button>}
         </section>
     )
 }
