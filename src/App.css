@@ -346,7 +346,7 @@ main.chef-claude-page ul {
 }
 
 #assembly .message-container {
-  width: 353px;
+  max-width: 353px;
   height: 60px;
   border-radius: 4px;
   margin: 0 auto 35px;
@@ -433,7 +433,7 @@ main.chef-claude-page ul {
 }
 
 #assembly section.keyboard {
-  width: 480px;
+  max-width: 480px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
