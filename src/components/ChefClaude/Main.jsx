@@ -1,9 +1,6 @@
 import { useState, useEffect, useRef } from "react"
-import ReactMarkdown from "react-markdown"
 import IngredientsList from "./IngredientsList";
 import ClaudeRecipe from "./ClaudeRecipe";
-import recipeCode from "../../recipeMarkdown.md?raw"
-import { getRecipeFromMistral } from "../../ai"
 
 export default function Main() {
     const [ingredients, setIngredients] = useState([]);
@@ -13,13 +10,30 @@ export default function Main() {
     function addIngredientSubmit(formData) {
         const newIngredient = formData.get("ingredient");
         setIngredients(prevIngredients => [...prevIngredients, newIngredient]);
-        console.log(ingredients)
+        //console.log(ingredients)
     }
 
-    async function getRecipe() {
+    function getRecipe() {
         //setRecipe(recipeCode);
-        const recipeMarkdown = await getRecipeFromMistral(ingredients)
-        setRecipe(recipeMarkdown)
+        const data = {
+            ingredientsArr: ingredients,
+        };
+        fetch('https://vite-react-six-ebon-69.vercel.app/api/hf', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+            })
+            .then((response) => response.json())
+            .then((data) => {
+                console.log('Success:', data);
+                setRecipe(data.recipe)
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+            
     }
 
     useEffect(() => {
