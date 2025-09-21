@@ -5,8 +5,18 @@ You are an assistant that receives a list of ingredients that a user has and sug
 `;
 
 export default async function handler(req, res) {
-  
-  res.setHeader('Access-Control-Allow-Origin', '*');
+    
+    // Set CORS headers for all requests
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+    // Handle the preflight OPTIONS request
+    if (req.method === 'OPTIONS') {
+        res.status(200).end();
+        return;
+    }
+    
     try {
     // The request body is automatically parsed and available on req.body
     const body = req.body;
