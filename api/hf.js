@@ -6,8 +6,14 @@ You are an assistant that receives a list of ingredients that a user has and sug
 
 export default async function handler(req, res) {
   try {
-    const body = await req.json(); // parse incoming POST body
+    // The request body is automatically parsed and available on req.body
+    const body = req.body;
     const { ingredientsArr } = body;
+
+    if (!ingredientsArr || !Array.isArray(ingredientsArr)) {
+      res.status(400).json({ error: "Invalid ingredients list provided." });
+      return;
+    }
 
     const hf = new InferenceClient(process.env.HF_ACCESS_TOKEN);
 
@@ -27,6 +33,7 @@ export default async function handler(req, res) {
       recipe: response.choices[0].message.content,
     });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error("API error:", err);
+    res.status(500).json({ error: err.message || "Internal Server Error" });
   }
 }
