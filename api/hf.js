@@ -5,7 +5,9 @@ You are an assistant that receives a list of ingredients that a user has and sug
 `;
 
 export default async function handler(req, res) {
-  try {
+  
+  res.setHeader('Access-Control-Allow-Origin', '*');
+    try {
     // The request body is automatically parsed and available on req.body
     const body = req.body;
     const { ingredientsArr } = body;
