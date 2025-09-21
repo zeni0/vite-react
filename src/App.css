@@ -6,7 +6,7 @@ a {
   color: #5093E2;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, ul {
   margin-top: 0;
 }
 
@@ -103,6 +103,10 @@ header.chef-claude-header img {
   height: 40px;
 }
 
+header.chef-claude-header p {
+  margin-bottom: 0;
+}
+
 main.chef-claude-page {
   padding: 30px;
   background-color: #FAFAF8;
@@ -128,6 +132,7 @@ main.chef-claude-page ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px auto 50px;
 }
 .add-ingredient-form input {
   padding: 10px;
@@ -158,6 +163,41 @@ main.chef-claude-page ul {
 .add-ingredient-form button::before {
   content: "+";
   margin-right: 5px;
+}
+
+.get-recipe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: #F0EFEB;
+    padding: 10px 28px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.get-recipe-container h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.get-recipe-container p {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 20px;
+}
+
+.get-recipe-container button {
+    border: none;
+    border-radius: 6px;
+    background: #D17557;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: #FAFAF8;
+    padding: 9px 17px;
+    font-family: Inter, sans-serif;
+    font-size: 0.875rem;
+    cursor: pointer;
 }
 
 /** * Meme Generator Page Styles

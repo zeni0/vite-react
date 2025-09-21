@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown"
 import IngredientsList from "./IngredientsList";
 import ClaudeRecipe from "./ClaudeRecipe";
 import recipeCode from "../../recipeMarkdown.md?raw"
+import { getRecipeFromMistral } from "../../ai"
 
 export default function Main() {
     const [ingredients, setIngredients] = useState([]);
@@ -15,8 +16,10 @@ export default function Main() {
         console.log(ingredients)
     }
 
-    function getRecipe() {
-        setRecipe(recipeCode);
+    async function getRecipe() {
+        //setRecipe(recipeCode);
+        const recipeMarkdown = await getRecipeFromMistral(ingredients)
+        setRecipe(recipeMarkdown)
     }
 
     useEffect(() => {
