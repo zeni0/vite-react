@@ -1,5 +1,5 @@
 
-import { useState } from "react"
+import { useState, createElement } from "react"
 import data from "../components/Assessments/assessments-complete.json"
 
 export default function Assessments() {
@@ -13,6 +13,16 @@ export default function Assessments() {
 
     function showLessCouses() {
         setCourseCount(10)
+    }
+
+    function dateString(str) {
+        const [day, month, year, ...time] = str.split(' ')
+        const date = `${day} ${month} ${year}`
+        time.join('')
+        return {
+            date,
+            time
+        }
     }
     
     return (
@@ -37,8 +47,8 @@ export default function Assessments() {
                         }
                     </div>
                     <div style={{textTransform:"capitalize"}}>{course.ASSIGNMENT_STATUS_DESC.toLowerCase()}</div>
-                    <div>{course.ASSIGNMENT_OPEN_DATE}</div>
-                    <div>{course.ASSIGNMENT_DUE_DATE}</div>
+                    <div>{dateString(course.ASSIGNMENT_OPEN_DATE).date}<br />{dateString(course.ASSIGNMENT_OPEN_DATE).time}</div>
+                    <div>{dateString(course.ASSIGNMENT_DUE_DATE).date}<br />{dateString(course.ASSIGNMENT_DUE_DATE).time}</div>
                 </div>
                 )}
             </main>
