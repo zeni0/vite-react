@@ -55,12 +55,14 @@ export default function Main() {
                     <button>Add ingredient</button>
                 </form>
                 
-                {ingredients.length > 0 &&
+                {ingredients.length > 0 
+                ?
                     <IngredientsList 
                         ingredients={ingredients}
                         ref={recipeSection}
                         getRecipe={getRecipe}
                     />
+                : <span>Select 4 or more ingredients to receive a recipe recommendation tailored to your ingredients by Chef Claude.</span>
                 }
 
                 {recipe && <ClaudeRecipe recipe={recipe} />}

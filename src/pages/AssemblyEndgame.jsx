@@ -14,7 +14,7 @@ export default function AssemblyEndgame() {
     const wrongGuessCount = guessedLetters.filter(letter => !currentWord.includes(letter)).length
     
     const [farewellMessage, setFarewellMessage] = useState("")
-
+    // Derived values
     const isGameWon = [...currentWord].every(letter => guessedLetters.includes(letter))
     const isGameLost = wrongGuessCount >= languages.length - 1
     const isGameOver = isGameWon || isGameLost
